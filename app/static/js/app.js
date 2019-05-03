@@ -35,6 +35,16 @@ Vue.component('app-footer', {
     `
 });
 
+const DefaultComponent = Vue.component('default-component', {
+  template: ``,
+  props: [],
+  data: function () {
+    return {}
+  },
+  created: function() {},
+  methods: {}
+});
+
 const Home = Vue.component('home', {
     template: `
     <div>
